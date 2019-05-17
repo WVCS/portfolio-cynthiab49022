@@ -1,83 +1,108 @@
-body {
+body, html {
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: avantgarde;
 }  
 
-.header1 {
+.header {
   margin: 0;
   text-align:center;
   font-family: broadway;
   font-size: 90px;
   color: white;
   background-color: #0e426b;
-  width: 100%;
+  width: 100vw-28px;
   padding: 28px;
+  overflow: visible;
+  height: 120px;
 }
-.navbar {
-  overflow: hidden;
+
+img.logo {
+	height: 100px;
+}
+
+.navList {
   background-color: #0e426b;
-  z-index: 5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 200;
   border: #0e426b 1px solid;
   border: border-collapse;
 }
 
-.navbar a {
-  float: left;
+.navList li {
+	float: left;
+}
+
+.content {
+	flex: 1;
+	overflow: auto;
+	padding: 20px;
+}
+
+.navList a {
   font-size: 18px;
   font-family: avantgarde;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: block;
+  transition: .3s;
+  white-space: nowrap;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 18px;  
-  border: none;
-  outline: none;
+li.dropdown {
+  font-size: 18px;
+  font-family: avantgarde;
   color: white;
+  text-align: center;
   padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  text-decoration: none;
+  display: block;
+  transition: .3s;
+  white-space: nowrap;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+li.dropdown:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #0e426b;
+}
+
+.navList a:hover {
   background-color: white;
   color: #0e426b;
   cursor: pointer;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #0e426b;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 5;
+.navList > li {
+	position: relative;
 }
 
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.navList > li > div.drop {
+	visibility: hidden;
+	position: absolute;
+	background-color: #0e426b;
+	transition: .1s;
+	opacity: 0;
 }
 
-.dropdown-content a:hover {
-  background-color: #255a84;
-  color: white;
+.navList > li:hover > div.drop {
+	visibility: visible;
+	opacity: 1;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.drop {
+	border: border-collapse;
+	border: #0e426b 1px solid;
+	top: 49px;
+	left: -42px;
 }
+
+
 
