@@ -14,11 +14,11 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 33.3333333333333%; /* IE10 */
+  flex: 33.3333333333333%;
+  max-width: 33.3333333333333%;
   padding: 0 4px;
 }
 
