@@ -1,0 +1,98 @@
+.selfintro {
+	background-color: #e1edf7;
+	width: 100vw;
+	height: 675px;
+	font-family: avantgarde;
+	text-align: center;
+	overflow: auto;
+}
+
+img.face {
+	text-align:center;
+	width: 250px;
+	height: auto;
+	padding: 16px;
+}
+
+.nameintro {
+	text-align:center;
+	font-family: georgia; 
+	font-size: 60px;
+	color: #082d49;
+}
+
+.titleintro {
+	text-align:center;
+	font-family: georgia;
+	font-size: 36px;
+	color: #082d49;
+}
+
+.intro {
+	text-align:center;
+	font-family: avantgarde;
+	font-size: 26px;
+	color: #082d49;
+}
+
+@media screen and (max-width: 1000px) {
+img.face {
+	max-width: 30%;
+	height: auto;
+}
+
+.nameintro {
+	font-size: 45px;
+}
+
+.titleintro {
+	font-size:30px;
+}
+
+.intro {
+	font-size: 22px;
+}
+}
+
+@media screen and (max-width: 720px) {
+.selfintro {
+	height: 600px;
+}
+
+.nameintro {
+	font-size: 36px;
+}
+
+.titleintro {
+	font-size: 26px;
+}
+
+.intro {
+	font-size: 18px;
+}
+}
+
+@media screen and (max-width: 479px) {
+.selfintro {
+	height: 500px;
+}
+
+img.face {
+	width: 40vw;
+	height: auto;
+}
+}
+
+@media screen and (max-width: 260px) {
+.nameintro {
+	font-size: 30px;
+}
+
+.titleintro {
+	font-size: 22px;
+}
+
+.intro {
+	font-size: 12px;
+}
+}
