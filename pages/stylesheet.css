@@ -104,5 +104,77 @@ li.dropdown:hover {
 	left: -42px;
 }
 
+@media screen and (max-width: 1000px) {
+.header {
+	font-size: 60px;
+	height: 8vh;
+}
 
+img.logo {
+	height: 60px;
+}
 
+.navList a {
+	font-size: 14px;
+	
+}
+
+li.dropdown {
+	font-size: 14px;
+}
+
+.drop {
+	top: 44px;
+	left: -30px;
+}
+}
+
+@media screen and (max-width: 720px) {
+.header {
+	font-size: 40px;
+	height: 6vh;
+}
+
+img.logo {
+	height: 40px;
+}
+
+.navList a {
+	font-size: 12px;
+	
+}
+
+li.dropdown {
+	font-size: 12px;
+}
+
+.drop {
+	top: 44px;
+	left: -30px;
+}
+}
+
+@media screen and (max-width: 260px) {
+.header {
+	font-size: 20px;
+	height: 3vh;
+}
+
+img.logo {
+	height: 20px;
+}
+
+.navList a {
+	font-size: 8px;
+}
+
+li.dropdown {
+	font-size: 8px;
+}
+
+.drop {
+	top: 37px;
+	left: -20px;
+}
+
+}
