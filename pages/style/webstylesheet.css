@@ -4,7 +4,13 @@
 
 body {
 	margin: 0;
-	background-color: #79abd1;
+}
+
+.mainsection {
+	background-color: #a0bfd6;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
 }
 
 .row {
