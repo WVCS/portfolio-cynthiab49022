@@ -4,12 +4,7 @@
 
 body {
 	margin: 0;
-}
-
-.mainsection {
 	background-color: rgb(160, 191, 214, 0.5);
-	height: 100%;
-	width: 100%;
 }
 
 .row {
