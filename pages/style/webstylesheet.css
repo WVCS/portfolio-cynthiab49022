@@ -7,6 +7,21 @@ body {
 	background-color: rgb(160, 191, 214, 0.5);
 }
 
+.header1 {
+  margin: 0;
+  text-align:center;
+  font-family: broadway;
+  font-size: 90px;
+  color: white;
+  background-color: #0e426b;
+  width: 100vw-28px;
+  padding: 28px;
+  padding-bottom: 100px;
+  overflow: visible;
+  height: 120px;
+}
+
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -17,9 +32,9 @@ body {
 
 /* Create three equal columns that sits next to each other */
 .column {
-  -ms-flex: 33.3333333333333%; /* IE10 */
-  flex: 33.3333333333333%;
-  max-width: 33.3333333333333%;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 
@@ -29,12 +44,27 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+.header1 {
+	font-size: 60px;
+	height: 8vh;
+  }
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+.header1 {
+	font-size: 40px;
+	height: 6vh;
+	padding-bottom: 65px;
   }
 }
 
@@ -46,11 +76,11 @@ body {
     max-width: 100%;
   }
 }
-</style>
-<body>
 
-<!-- Header -->
-<div class="header">
-  <h1>Responsive Image Grid</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
-</div>
+@media screen and (max-width: 460px) {
+.header1 {
+	font-size: 30px;
+	height: 3vh;
+	padding-bottom: 75px;
+  }
+}
