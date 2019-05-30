@@ -13,7 +13,7 @@
 	position: relative;
 	background-image: url("../images/rabbit.png");
 	animation-name: example;
-	animation-duration: 10s;
+	animation-duration: 9s;
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
 	animation-direction: normal;
@@ -22,7 +22,7 @@
 
 @keyframes example {
 	0% {left: 0px;}
-	100% {left:41%;}
+	100% {left:40.5%;}
 }
 
 .nameintro {
