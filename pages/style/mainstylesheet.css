@@ -17,7 +17,6 @@
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
 	animation-direction: normal;
-	animation-fill-mode: forwards;
 }
 
 @keyframes example {
