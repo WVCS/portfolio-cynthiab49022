@@ -7,11 +7,22 @@
 	overflow: auto;
 }
 
-img.face {
-	text-align:center;
-	width: 250px;
-	height: auto;
-	padding: 16px;
+.face {
+	width: 18%;
+	padding: 0;
+	position: relative;
+	background-image: url("../images/rabbit.png");
+	animation-name: example;
+	animation-duration: 10s;
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes example {
+	0% {left: 0px;}
+	100% {left:41%;}
 }
 
 .nameintro {
@@ -33,10 +44,11 @@ img.face {
 	font-family: avantgarde;
 	font-size: 26px;
 	color: #082d49;
+	padding: 20px;
 }
 
 @media screen and (max-width: 1000px) {
-img.face {
+.face {
 	max-width: 30%;
 	height: auto;
 }
@@ -69,6 +81,7 @@ img.face {
 
 .intro {
 	font-size: 18px;
+	padding: 15px;
 }
 }
 
@@ -77,9 +90,8 @@ img.face {
 	height: 500px;
 }
 
-img.face {
-	width: 40vw;
-	height: auto;
+.face {
+	width: 40%;
 }
 }
 
@@ -95,4 +107,23 @@ img.face {
 .intro {
 	font-size: 12px;
 }
+}
+
+@media screen and (max-width: 170px) {
+	.nameintro {
+		font-size: 26px;
+	}
+	
+	.titleintro {
+		font-size: 20px;
+	}
+	
+	.intro {
+		font-size: 16px;
+		padding: 10px;
+	}
+	
+	.face {
+		width: 50%;
+	}
 }
