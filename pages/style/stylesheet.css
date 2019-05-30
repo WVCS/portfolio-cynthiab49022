@@ -106,8 +106,8 @@ li.dropdown:hover {
 
 @media screen and (max-width: 1000px) {
 .header {
-	font-size: 40px;
-	height: 10vh;
+	font-size: 60px;
+	height: 8vh;
 }
 
 img.logo {
@@ -131,7 +131,7 @@ li.dropdown {
 
 @media screen and (max-width: 770px) {
 .header {
-	font-size: 30px;
+	font-size: 40px;
 	height: 6vh;
 }
 
@@ -154,7 +154,7 @@ li.dropdown {
 }
 }
 
-@media screen and (max-width: 260px) {
+@media screen and (max-width: 270px) {
 .header {
 	font-size: 20px;
 	height: 3vh;
@@ -176,5 +176,24 @@ li.dropdown {
 	top: 37px;
 	left: -20px;
 }
+}
 
+@media screen and (max-width: 170px) {
+	.header {
+		font-size: 16px;
+	}
+	
+	img.logo {
+		height: 16px;
+	}
+	
+	.navList a {
+		font-size: 6px;
+	}
+	
+	li.dropdown {
+		font-size: 6px;
+	}
+	
+	
 }
