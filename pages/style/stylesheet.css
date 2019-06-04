@@ -156,7 +156,7 @@ li.dropdown {
 
 @media screen and (max-width: 270px) {
 .header {
-	font-size: 20px;
+	font-size: 16px;
 	height: 3vh;
 }
 
