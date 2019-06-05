@@ -81,10 +81,11 @@ body {
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 620px) {
 .header1 {
 	font-size: 30px;
 	height: 3vh;
 	padding-bottom: 75px;
+	font-family: arial;
   }
 }
