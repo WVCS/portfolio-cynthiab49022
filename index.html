@@ -2,84 +2,75 @@
 <html>
 <head>
 <meta charset="utf-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cynthia's Portfolio</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <style>
 html, body {
 	padding: 0;
 	margin: 0;
 }
-
 body {
 	background-color: #0e426b;
 }
-
-.row {
+.container-fluid {
 	background-color: #0e426b;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	display: flex;
 	align-items: center;
-	text-align:center;
 	color: white;
-	display: -ms-flexbox; /* IE10 */
- 	display: flex;
- 	-ms-flex-wrap: wrap; /* IE10 */
- 	flex-wrap: wrap;
- 	padding: 0 4px;
 }
-	
-.column {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-
 h1, p {
 	font-family: avantgarde;
-	text-align:center;
 }
-
 p {
 	font-size: 18px;
 }
-
 a {
 	text-decoration: none;
 	cursor: default;
 }
-
 a:hover {
 	text-decoration: none;
 	cursor: pointer;
 }
-
 a: visited {
 	text-decoration: none;
 	cursor: default;
 }
-
-@media only screen and (max-width: 768px) {
-.column {
-  -ms-flex: 100%; /* IE10 */
-  flex: 100%;
-  max-width: 100%;
-  padding: 0 4px;
+.mainbackground {
+	background-image: url("images/mainbackground.PNG");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
 }
+[class*="col-"] {
+	float: left;
+	padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+	.col-md-11 {width: 100%; font-size: 60px;}
+	.col-md-12 {width: 100%; font-size: 14px;}
+}
+@media only screen and (max-width: 600px) {
+	.col-sm-10 {width: 100%; font-size: 40px;}
+	.col-sm-12 {width: 100%; font-size: 10px;}
 }
 </style>
 <body>
 <a href="pages/main.html">
-	<div class="row">
-	<div class="column"><!--Header-->
-		<h1>Welcome to Cynthia B.'s Portfolio</h1>
+<div class="container-fluid">
+	<div class="row justify-content-center">
+	<div class="col-lg-4.5 col-md-12 col-sm-12"><!--Header-->
+		<h1 class="display-2 text-center">Welcome to Cynthia B.'s Portfolio</h1>
 	</div>
 	</div>
-		<div class="column">
-		<p>In my portfolio, you will see many projects that I have worked on before, 
+		<div class="col-lg-7 col-md-11 col-sm-10" class="mainbackground">
+		<p class="display-6 text-center">In my portfolio, you will see many projects that I have worked on before, 
 		including projects related to web design, art, and other academic related works. You will also be able to view 
 		many of my achievements, my resume, and more!</p>
 	</div>
