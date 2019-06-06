@@ -69,8 +69,8 @@ body {
   .text {
 	  height: 400px;
 	  text-align:center;
-	  padding-top: 30px;
-	  padding-bottom: 30px;
+	  padding-top: auto;
+	  padding-bottom: auto;
 	  color: white;
 	  background-color: #0e246b;
 	  font-size: 16px;
@@ -83,8 +83,8 @@ body {
   .text2 {
 	  height: 400px;
 	  text-align:center;
-	  padding-top: 30px;
-	  padding-bottom: 30px;
+	  padding-top: auto;
+	  padding-bottom: auto;
 	  color: white;
 	  background-color: #0e246b;
 	  font-size: 16px;
