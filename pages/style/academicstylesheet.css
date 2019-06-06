@@ -28,6 +28,7 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-top: 10px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -40,12 +41,25 @@ body {
 
 .columncontent {
   margin-top: 8px;
-  vertical-align: middle;
   width: 100%;
 }
 
 .colheader {
-  
+  font-size: 30px;
+  font-family: avantgarde;
+  color: #e5efff;
+  width: 100%;
+  background-color: #0e426b;
+  text-align: center;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul.list {
+	float: left;
+	font-family: avantgarde;
+	font-size: 30px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -81,7 +95,7 @@ body {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 476px) {
 .header1 {
 	font-size: 30px;
 	height: 3vh;
