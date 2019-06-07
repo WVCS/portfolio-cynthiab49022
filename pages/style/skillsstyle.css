@@ -73,14 +73,6 @@ body {
   }
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1200px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
 
 @media screen and (max-width: 770px) {
 .header1 {
