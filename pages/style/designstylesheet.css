@@ -66,19 +66,28 @@ body {
   vertical-align: middle;
 }
 
+h1 {
+	font-size: 60px;
+	text-align: left;
+	color: #0e246b;
+	font-family: avantgarde;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+p {
+	font-size: 30px;
+	text-align: left;
+	color: #0e245b;
+	font-family: avantgarde;
+	padding: 5px;
+}
+
 @media screen and (max-width: 1000px) {
 .header1 {
 	font-size: 60px;
 	height: 8vh;
-  }
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1200px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
   }
 }
 
@@ -97,6 +106,14 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+
+h1, p {
+	text-align:center;
+}
+
+h1 {font-size: 30px;}
+p {font-size: 16px;}
+
 }
 
 @media screen and (max-width: 620px) {
