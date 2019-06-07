@@ -84,6 +84,10 @@ p {
 	padding: 5px;
 }
 
+a, a:hover, a:visited {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 1000px) {
 .header1 {
 	font-size: 60px;
